@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/bgworldcup"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnmenu"
+        android:id="@+id/btnHistory"
+        android:text="History"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="btnHistory"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnmenu"
+        android:id="@+id/btnSchedule"
+        android:layout_below="@+id/btnHistory"
+        android:text="Schedule"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="btnSchedule"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnmenu"
+        android:layout_below="@+id/btnSchedule"
+        android:id="@+id/btnTeams"
+        android:text="Teams"
+        android:layout_centerInParent="true"
+        android:onClick="btnTeams"/>
+
+
+</RelativeLayout>

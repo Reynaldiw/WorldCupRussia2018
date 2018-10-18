@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#4453b1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imgList"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/australia"/>
+
+        <TextView
+            android:id="@+id/txtListTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia"
+            android:textSize="30dp"
+            android:paddingLeft="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
